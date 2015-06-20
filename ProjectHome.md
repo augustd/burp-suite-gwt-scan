@@ -1,0 +1,1 @@
+This Burp Suite extension parses GWT (Google Web Toolkit) requests and identifies insertion points. Identified GWT insertion points are automatically used in Scanner and Intruder.
