@@ -212,9 +212,19 @@ public class GWTParser {
     public String[] getStringTable() {
         return stringTable;
     }
+    
+    public String getStringParameter(int index) {
+	if (index > stringTableSize) return null;
+	return stringTable[index];
+    }
 
     public int getStringTableSize() {
         return stringTableSize;
+    }
+    
+    public String getPayloadEntry(int index) {
+	if (index > payload.length) return null;
+	return payload[index];
     }
 
     public int getVersion() {
