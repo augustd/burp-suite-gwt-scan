@@ -13,7 +13,7 @@ import javax.swing.JMenuItem;
 /**
  * GWT Scan
  * 
- * Burp Suite Extension to parse GWT (Google Web Toolkit) requests and identify insertyion points. 
+ * Burp Suite Extension to parse GWT (Google Web Toolkit) requests and identify insertion points. 
  * Identified GWT insertion points are automatically used in Scanner and pre-identified insertion 
  * points can be used in Intruder. 
  * 
